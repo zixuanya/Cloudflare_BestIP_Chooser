@@ -28,9 +28,11 @@ clone本项目，保存在你想要的地方
 # Q/A
 
 Q：项目是通过什么检测的？
+
 A：使用了[cloverstd/tcping](https://github.com/cloverstd/tcping)大佬开发的TCPING套件，而不是较为不准确的Ping
 
 Q：为什么不使用HTTP真链接延迟测试？、
+
 A：太慢了，生成的ip要等半年才能生成完成，HTTP真链接实际使用上尽管质量比tcping更好，但是对于服务器CPU性能的考验非常的大，还有无法正常工作的异步asyncio http访问问题，故直接抛弃
 
 ...
